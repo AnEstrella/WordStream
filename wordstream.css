@@ -1,0 +1,169 @@
+#header{
+display: block;
+height: 100px;
+}
+
+	.navbar{
+	background-color: #D8D8D8;
+	right: 80px;
+	position: absolute;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	width: 350px;
+	font-size: 12px;
+	border-radius: 5;
+	}
+
+		.navbar ul {
+			list-style-type: none;
+			display: inline-block;
+			margin: 5px;
+		}
+		.navbar li {
+    		display: inline-block;
+    		border-right-style: solid;
+    		border-color: gray;
+    		padding-right: 3px
+		}
+
+		.navbar, a:link, a:visited{
+			color: gray;
+		}
+
+
+	.login-button{
+	background-color: #2E9AFE;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	border-radius: 5;
+	}
+
+#logo{
+display: block;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+
+#companyName{
+background-color: #2E9AFE;
+padding-left: 10px;
+color: white;
+font-family: arial;
+font-size: 20px;
+height: 35px;
+
+/*gradient*/   
+background: -webkit-linear-gradient(#086A87, #2E9AFE, #086A87); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#086A87, #2E9AFE, #086A87); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#086A87, #2E9AFE, #086A87); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#086A87, #2E9AFE, #086A87); /* Standard syntax (must be last) */
+}
+
+#leftPane{
+display: inline-block;
+vertical-align: top;
+width: 200px;
+}
+
+	#scheduledemo-button, #freetrial-button {
+		display: block;
+		color: white;
+		border-radius: 5;
+		width: 200px;
+		margin: 5px;
+	}
+
+		#scheduledemo-button {
+			background-color: #2E9AFE; 
+		}
+		#freetrial-button {
+			background-color: #DF7401;
+		}
+
+h4{
+	color: #2E9AFE;
+}
+
+#get-graded{
+
+}
+
+h1{
+	color: #2E9AFE;
+	font-size: 17px;
+	font-family: arial;
+}
+
+#bottom-wrapper {
+	/*gradient*/   
+background: -webkit-linear-gradient(#E6E6E6, white, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#E6E6E6, white, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#E6E6E6, white, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#E6E6E6, white, white); /* Standard syntax (must be last) */
+}
+
+#mainWrapper{
+display: inline-block;
+width: 600px;
+padding-top: 10px;
+padding-left: 25px;
+}
+
+h5 {
+	display:inline;
+}
+
+	#homeNav, #contact, #main{
+		
+	}
+
+		#homeNav{
+		display: inline-block;
+		width: 400px;
+		vertical-align: top; 
+		}
+
+		#contact{
+		display: inline-block;
+		width: 150px;
+		}
+
+		#main{
+		display: block;
+		border-top: solid;
+		border-color: gray;
+		border-width: 1px;
+		}
+
+		#main a:link, a:visited; {
+			color: blue;
+		}
+			#adbox {
+				border-width: 4px;
+				border-style: solid;
+				border-color: #58ACFA;
+				margin-top: 10px;
+				padding-bottom: 5px;
+			}
+
+			#adbox img {
+				display: inline;
+				width: 50px;
+				position: absolute;
+			}
+				#getstarted-button {
+					display: block;
+					background-color: green;
+					color: white;
+					margin-top: 10px;
+					margin-left: 50px;
+					border-radius: 5;
+					width: 150px;
+					height: 30px;
+				}
+
+
+
